@@ -1,4 +1,4 @@
 # To run PowerShell script type: .\connect_pi.ps1
-$username = "piestarspi"
-$hostname = "123pi"
+$username = "pp"
+$hostname = "PromillePartner.local"
 ssh "$username@$hostname"
