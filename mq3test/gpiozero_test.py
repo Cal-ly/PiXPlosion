@@ -1,7 +1,7 @@
 from gpiozero import Button
 from signal import pause
 
-mq3_sensor = Button(23)  # Replace with your GPIO pin number
+mq3_sensor = Button(3)  # Replace with your GPIO pin number
 
 def alcohol_detected():
     print("Alcohol detected!")
